@@ -8,12 +8,13 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx">
-      window.global = window;
-      window.process = {
-        env: { DEBUG: undefined },
+    <script>
+      const isBrowser = () => typeof window !== "undefined";
+      const isGlobal = () => typeof global !== "undefined";
+      if (!isGlobal() && isBrowser()) {
+        var global = window;
       }
-      var exports = {};
     </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
