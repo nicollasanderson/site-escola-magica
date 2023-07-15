@@ -1,0 +1,8 @@
+.main-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("/src/assets/background-image.jpg");
+}
