@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import background1 from "../../assets/background-image.jpg";
 
 export const StyledSection1 = styled.section`
     width: 100%;
-    background-image: url("/src/assets/background-image.jpg");
+    background-image: url(${background1});
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;

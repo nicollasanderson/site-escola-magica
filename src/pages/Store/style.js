@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import florestaBackground from "../../assets/floresta.jpg"
 
 export const MainStoreContent = styled.div`
     width: 100%;
     /* height: 100%; */
     display: flex;
     justify-content: center;
-    background-image: url("/src/assets/floresta.jpg");
+    background-image: url(${florestaBackground});
     height: 100vh;
     background-attachment: fixed;
     background-position: center;

@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import bibliotecaBackground2 from "../../assets/biblioteca.jpg"
 
 export const StyledSection2 = styled.section`
     width: 100%;
     min-height: 100%;
-    background-image: url("/src/assets/biblioteca.jpg");
+    background-image: url(${bibliotecaBackground2});
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
