@@ -11,15 +11,15 @@ const Header = () => {
           </a>
           <ul class="nav-links">
             <li>
-              <a href="/loja">Loja</a>
+              <a href="/creditos">Doações</a>
+            </li>
+            <li>
+              <a href="#">Como jogar</a>
             </li>
             <li>
               <a target="_blank" href="https://discord.gg/qA7fjHTa92">
                 Discord
               </a>
-            </li>
-            <li>
-              <a href="#">X</a>
             </li>
           </ul>
         </nav>

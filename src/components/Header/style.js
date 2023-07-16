@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { colors } from '../../styles/theme';
 
 export const DivMainHeader = styled.div`
-    font-family: 'AquelaFonte', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');  
+    font-family: 'Lexend', sans-serif;
     width: 100%;
     height: 100px;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 30px;
     
     nav{

@@ -2,6 +2,7 @@ import { StyledSection2 } from "./style";
 import { randomImagesList } from "../../services/imagesList";
 import { useState } from "react";
 import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
+import Footer from "../Footer";
 
 const Section2 = () => {
   // const randomNumber = Math.floor(Math.random() * 12);
@@ -81,9 +82,9 @@ const Section2 = () => {
             height="315"
             src="https://www.youtube.com/embed/hVmqop-taPk?start=254"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
           <div className="screenshots-container">
             <picture>
@@ -101,6 +102,7 @@ const Section2 = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </StyledSection2>
   );

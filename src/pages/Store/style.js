@@ -14,6 +14,7 @@ export const MainStoreContent = styled.div`
     background-size: cover;
     color: black;
     overflow: auto;
+    /* padding-bottom: 100px; */
 
     > div{
         display: flex;
@@ -29,8 +30,8 @@ export const MainStoreContent = styled.div`
             display: flex;
             flex-flow: wrap;
             justify-content: space-between;
-            @media (max-width: 700px){
-
+            @media (max-width: 1242px){
+                justify-content: center;
             }
         }
     }

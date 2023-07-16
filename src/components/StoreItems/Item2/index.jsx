@@ -1,6 +1,4 @@
-import QRCodeCopy from "../../QRCodeCopy";
 import { DivQrContent } from "./style";
-import qrcode from "../../../assets/qrcode-pix.png";
 
 const Item2 = () => {
   return (
