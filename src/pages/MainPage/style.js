@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const MainContent = styled.div`
-    width: 80%;
+    width: 100%;
     height: 100vh;
-    background-color: white;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
+    /* background-color: white; */
+    /* border-left: 5px solid black;
+    border-right: 5px solid black; */
 `
+

@@ -1,11 +1,12 @@
-import Header from "../../components/Header";
 import { MainContent } from "./style";
+import Section1 from "../../components/Section1";
+import Section2 from "../../components/Section2";
 
 const MainPage = () => {
   return (
     <MainContent>
-      <Header />
-      <p>marilene</p>
+      <Section1 />
+      <Section2 />
     </MainContent>
   );
 };
