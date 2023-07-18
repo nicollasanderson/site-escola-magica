@@ -22,6 +22,7 @@ export const GlobaStyle = createGlobalStyle`
     }
     button {
         cursor: pointer;
+        background-color: white;
     }
     figcaption {
         display: none;
