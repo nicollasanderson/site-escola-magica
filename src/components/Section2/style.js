@@ -4,7 +4,6 @@ import bibliotecaBackground2 from "../../assets/biblioteca.jpg"
 export const StyledSection2 = styled.section`
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
     width: 100%;
-    min-height: 100%;
     background-image: url(${bibliotecaBackground2});
     min-height: 100vh;
     background-attachment: fixed;
@@ -13,7 +12,7 @@ export const StyledSection2 = styled.section`
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding: 100px 0;
 
     >div{
         width: 80%;
@@ -32,11 +31,12 @@ export const StyledSection2 = styled.section`
         justify-content: center;
         flex-flow: column;
         align-items: center;
-        text-align: justify;
         padding: 10px;
         border: 1px solid #FFD700;
+        gap: 20px;
+        padding: 20px;
         p{
-            margin-bottom: 10px;
+            
             font-family: 'VDSRegular';
         }
         @media (max-width: 1300px){
@@ -48,7 +48,8 @@ export const StyledSection2 = styled.section`
         display: flex;
         flex-flow: column;
         align-items: center;
-        max-width: 400px;
+        width: 100%;
+        max-width: 550px;
         gap: 40px;
 
         h1{
@@ -65,6 +66,7 @@ export const StyledSection2 = styled.section`
         iframe{
             border: 2px solid #FFD700;
             border-radius: 5px;
+            width: 100%;
         }
 
         img{
@@ -75,7 +77,14 @@ export const StyledSection2 = styled.section`
     }
 
     .screenshots-container{
-        width: 600px;
+        width: 100%;
+
+        picture{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
 
         div{
             width: 100%;
@@ -100,7 +109,15 @@ export const StyledSection2 = styled.section`
             justify-content: center;
             align-items: center;
             -webkit-text-stroke: 1px black;
+        }
+    }
 
+    @media (max-width: 700px){
+        .div-medias{
+            h1{
+                text-align: center;
+                font-size: 50px;
+            }
         }
     }
 `
