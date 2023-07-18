@@ -67,4 +67,22 @@ export const DivMainHeader = styled.div`
     .nav-links li:nth-child(4) a:hover {
       color: orange;
     }
+
+    
+
+`
+
+export const HamburButtom = styled.button`
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 0;
+  
+  svg{
+    width: inherit;
+    height: inherit;
+  }
 `

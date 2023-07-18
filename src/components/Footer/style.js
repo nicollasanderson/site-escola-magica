@@ -7,4 +7,16 @@ export const FooterMain = styled.footer`
     justify-content: center;
     padding: 30px 0;
     align-items: center;
+
+    div{
+        width: 100%;
+        max-width: 600px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 700px){
+    }
 `

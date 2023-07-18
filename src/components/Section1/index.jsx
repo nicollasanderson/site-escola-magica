@@ -5,7 +5,7 @@ import Header from "../Header";
 
 const Section1 = () => {
   return (
-    <StyledSection1>
+    <StyledSection1 id="primeiraSecao">
       <div>
         <Header />
         <ServerNameDiv>

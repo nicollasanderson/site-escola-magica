@@ -11,6 +11,7 @@ export const StyledSection1 = styled.section`
     background-size: cover;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 
     > div{
         width: 80%;

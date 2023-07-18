@@ -5,10 +5,12 @@ const Footer = () => {
   return (
     <FooterMain>
       <div>
-        <img
-          src={footer}
-          alt="Conecte ao nosso Discord https://discord.gg/qA7fjHTa92"
-        />
+        <a href="https://discord.gg/qA7fjHTa92" target="_blank">
+          <img
+            src={footer}
+            alt="Conecte ao nosso Discord https://discord.gg/qA7fjHTa92"
+          />
+        </a>
       </div>
     </FooterMain>
   );
