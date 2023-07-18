@@ -47,7 +47,7 @@ const Section2 = () => {
             </p>
             <p>
               Você obterá varinhas e aprenderá feitiços, poderá capturar
-              territórios, lutar por experiência , desbloquear personagens e
+              territórios, lutar por experiência, desbloquear personagens e
               muito mais! Cada feitiço que você obtiver lhe dará uma habilidade
               especial, bem como pontos para o seu nível geral de habilidade.
             </p>
