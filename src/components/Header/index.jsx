@@ -23,9 +23,9 @@ const Header = ({ page }) => {
     <DivMainHeader>
       <header className="header">
         <nav className="navbar">
-          <a href="/" className="logo">
+          <Link to="/" className="logo">
             <img src={width < 600 ? logoMenor : logo} alt="Escola Magica RP" />
-          </a>
+          </Link>
           {width < 900 ? (
             <HamburButtom onClick={onClickHaburgButton}>
               <GiHamburgerMenu />
