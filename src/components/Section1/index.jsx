@@ -7,7 +7,7 @@ const Section1 = () => {
   return (
     <StyledSection1 id="primeiraSecao">
       <div>
-        <Header />
+        <Header page="main" />
         <ServerNameDiv>
           <img src={logo} alt="Escola Magica RP" />
         </ServerNameDiv>

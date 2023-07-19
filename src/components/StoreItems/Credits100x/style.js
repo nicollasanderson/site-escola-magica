@@ -11,7 +11,7 @@ export const CreditContainer = styled.div`
     .credit-name-h1{
         color: #A75EAE;
         -webkit-text-stroke: 1px black;
-        height: 70px;
+        height: 100%;
     }
 
     .credit-price-h1{
@@ -39,6 +39,39 @@ export const CreditContainer = styled.div`
         b{
             color: red;
             -webkit-text-stroke: 1px black;
+        }
+    }
+
+    @media (max-width: 700px){
+        width: 100%;
+
+        .div-wrapper{
+            flex-flow: column;
+        }
+
+        .container-infos{
+            flex-flow: column;
+
+            > div{
+                display: flex;
+                gap: 10px;
+                flex-flow: column;
+            }
+        }
+        .credit-price-h1{
+            font-size: 45px;
+        }
+        .credit-name-h1{
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 400px){
+        .credit-price-h1{
+            font-size: 39px;
+        }
+        .credit-name-h1{
+            font-size: 40px;
         }
     }
 `

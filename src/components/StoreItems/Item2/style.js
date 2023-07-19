@@ -22,4 +22,26 @@ export const DivQrContent = styled.div`
         }
         text-align: center;
     }
+
+    @media (max-width: 1100px){
+        .div-infos{
+            p{
+                font-size: 17px;
+                text-align: justify;
+            }
+        }
+
+        .div-title{
+            h1{
+                margin: 10px 0;
+            }
+        }
+    }
+    @media (max-width: 600px){
+        .div-title{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
 `

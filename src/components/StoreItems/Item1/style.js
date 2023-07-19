@@ -57,4 +57,32 @@ export const DivQrContent = styled.div`
             color: white;
         }
     }
+
+    @media (max-width: 1100px){
+        gap: 20px;
+        flex-flow: column;
+        display: flex;
+        .div-infos{
+            flex-flow: column;
+
+            >div{
+                width: 100%;
+            }
+
+            figure{
+                width: 100%;
+            }
+        }
+
+        .div-description{
+            h3{
+                font-size: 15px;
+            }
+        }
+
+        .div-title{
+            font-size: 10px;
+        }
+    }
+
 `

@@ -6,13 +6,14 @@ import Credits25x from "../../components/StoreItems/Credits25x";
 import Credits50x from "../../components/StoreItems/Credits50x";
 import Item1 from "../../components/StoreItems/Item1";
 import Item2 from "../../components/StoreItems/Item2";
+import ToTopButton from "../../components/ToTopButton";
 import { MainStoreContent } from "./style";
 
 const Store = () => {
   return (
     <MainStoreContent>
       <div>
-        <Header />
+        <Header page="store" />
         <Item1 />
         <Item2 />
         <div className="Container-Credits">
@@ -23,6 +24,7 @@ const Store = () => {
         </div>
         <Footer />
       </div>
+      <ToTopButton />
     </MainStoreContent>
   );
 };

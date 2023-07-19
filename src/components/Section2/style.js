@@ -49,7 +49,7 @@ export const StyledSection2 = styled.section`
         flex-flow: column;
         align-items: center;
         width: 100%;
-        max-width: 550px;
+        max-width: 475px;
         gap: 40px;
 
         h1{

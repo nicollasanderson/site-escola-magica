@@ -41,4 +41,38 @@ export const CreditContainer = styled.div`
             -webkit-text-stroke: 1px black;
         }
     }
+
+    @media (max-width: 700px){
+        width: 100%;
+
+        .div-wrapper{
+            flex-flow: column;
+        }
+
+        .container-infos{
+            flex-flow: column;
+
+            > div{
+                display: flex;
+                gap: 10px;
+                flex-flow: column;
+            }
+        }
+        .credit-price-h1{
+            font-size: 45px;
+        }
+        .credit-name-h1{
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width: 400px){
+        .credit-price-h1{
+            font-size: 39px;
+        }
+        .credit-name-h1{
+            font-size: 40px;
+            height: 100%;
+        }
+    }
 `
