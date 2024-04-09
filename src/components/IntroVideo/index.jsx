@@ -6,7 +6,7 @@ const IntroVideo = () => {
       <iframe
         width="650"
         height="365"
-        src="https://www.youtube.com/embed/Ee66jOLH8HE"
+        src="https://www.youtube.com/embed/mOtydZlnRL0?si=cPtfyT6fjccRgZiu"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

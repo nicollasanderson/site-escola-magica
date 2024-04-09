@@ -14,7 +14,7 @@ const Store = () => {
     <MainStoreContent>
       <div>
         <Header page="store" />
-        <Item1 />
+        {/* <Item1 /> */}
         <Item2 />
         <div className="Container-Credits">
           <Credits10x />
